@@ -160,7 +160,6 @@ ol {
   appearance: none;
 }
 
-
 .search-form__pseudo-checkbox {
   display: flex;
   justify-content: center;
@@ -229,7 +228,6 @@ input[type='checkbox']:checked +
   display: block;
 }
 
-
 .content__video-card {
   display: flex;
   align-items: start;
@@ -238,7 +236,6 @@ input[type='checkbox']:checked +
 .content__video-card-description-container {
   flex-grow: 1;
 }
-
 
 .content__video-card-title {
   max-width: 196px;
@@ -249,7 +246,7 @@ input[type='checkbox']:checked +
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-family: Oswald;
+  font-family: Oswald, Roboto, 'Open Sans';
 }
 
 .content__video-card-description {
@@ -300,7 +297,7 @@ input[type='checkbox']:checked +
   outline-offset: 3px;
 }
 
- .search-form__label:hover .search-form__label-text,
+.search-form__label:hover .search-form__label-text,
 .button:hover,
 .content__card-link:hover {
   text-decoration: underline;
