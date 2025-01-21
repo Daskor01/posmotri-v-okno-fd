@@ -197,7 +197,6 @@ input[type='checkbox']:checked +
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
-  margin-top: 25px;
 }
 
 .content__accent {
